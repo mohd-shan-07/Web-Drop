@@ -5,6 +5,5 @@ const SOCKET_URL =
   "https://webdrop-server.onrender.com";
 
 export const socket = io(SOCKET_URL, {
-  transports: ["websocket"],
   autoConnect: false,
 });
